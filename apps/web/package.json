@@ -12,10 +12,7 @@
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
-    "@crossmint/client-sdk-react-ui": "^1.14.8",
-    "@dynamic-labs/ethereum": "catalog:dynamic-labs",
-    "@dynamic-labs/sdk-react-core": "catalog:dynamic-labs",
-    "@dynamic-labs/wagmi-connector": "catalog:dynamic-labs",
+    "@repo/crossmint": "workspace:*",
     "@repo/dynamic": "workspace:*",
     "@repo/ui": "workspace:*",
     "dotenv-cli": "^8.0.0",

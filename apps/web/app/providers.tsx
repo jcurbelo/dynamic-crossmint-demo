@@ -1,7 +1,7 @@
 "use client";
 
-import { CrossmintProvider } from "@crossmint/client-sdk-react-ui";
 import type { ReactNode } from "react";
+import { CrossmintProvider } from "@repo/crossmint";
 import { DynamicProvider } from "@repo/dynamic";
 
 export function Providers({ children }: { children: ReactNode }) {
