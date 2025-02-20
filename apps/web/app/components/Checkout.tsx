@@ -23,7 +23,7 @@ export default function Checkout() {
             },
           }}
           payment={{
-            crypto: { enabled: true },
+            crypto: { enabled: false },
             fiat: { enabled: true },
           }}
         />
