@@ -15,7 +15,6 @@
     "@dynamic-labs/sdk-react-core": "catalog:dynamic-labs",
     "@dynamic-labs/wagmi-connector": "catalog:dynamic-labs",
     "@tanstack/react-query": "^5.66.7",
-    "@wagmi/core": "^2.16.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "viem": "^2.23.2",

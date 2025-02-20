@@ -75,46 +75,12 @@ importers:
       eslint:
         specifier: ^9.20.0
         version: 9.20.1(jiti@1.21.7)
-      typescript:
-        specifier: 5.7.3
-        version: 5.7.3
 
   packages/crossmint:
     dependencies:
       '@crossmint/client-sdk-react-ui':
         specifier: ^1.14.8
         version: 1.14.8(@dynamic-labs/logger@2.6.3(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@types/react-dom@19.0.3(@types/react@19.0.8))(@types/react@19.0.8)(bufferutil@4.0.9)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(ts-node@10.9.2(@types/node@22.13.4)(typescript@5.7.3))(typescript@5.7.3)(utf-8-validate@5.0.10)
-      '@tanstack/react-query':
-        specifier: ^5.66.7
-        version: 5.66.8(react@19.0.0)
-      '@wagmi/core':
-        specifier: ^2.16.4
-        version: 2.16.4(@tanstack/query-core@5.66.4)(@types/react@19.0.8)(react@19.0.0)(typescript@5.7.3)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      react:
-        specifier: ^19.0.0
-        version: 19.0.0
-      react-dom:
-        specifier: ^19.0.0
-        version: 19.0.0(react@19.0.0)
-      viem:
-        specifier: ^2.23.2
-        version: 2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
-      wagmi:
-        specifier: ^2.14.11
-        version: 2.14.11(@tanstack/query-core@5.66.4)(@tanstack/react-query@5.66.8(react@19.0.0))(@types/react@19.0.8)(bufferutil@4.0.9)(react@19.0.0)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))(zod@3.22.4)
-    devDependencies:
-      '@repo/eslint-config':
-        specifier: workspace:*
-        version: link:../eslint-config
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: 19.0.8
-        version: 19.0.8
-      '@types/react-dom':
-        specifier: 19.0.3
-        version: 19.0.3(@types/react@19.0.8)
 
   packages/dynamic:
     dependencies:
@@ -130,9 +96,6 @@ importers:
       '@tanstack/react-query':
         specifier: ^5.66.7
         version: 5.66.8(react@19.0.0)
-      '@wagmi/core':
-        specifier: ^2.16.4
-        version: 2.16.4(@tanstack/query-core@5.66.4)(@types/react@19.0.8)(react@19.0.0)(typescript@5.7.3)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -188,9 +151,6 @@ importers:
       globals:
         specifier: ^15.15.0
         version: 15.15.0
-      typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
       typescript-eslint:
         specifier: ^8.24.0
         version: 8.24.1(eslint@9.20.1(jiti@1.21.7))(typescript@5.7.3)
@@ -227,9 +187,6 @@ importers:
       eslint:
         specifier: ^9.20.0
         version: 9.20.1(jiti@1.21.7)
-      typescript:
-        specifier: 5.7.3
-        version: 5.7.3
 
 packages:
 
@@ -8172,9 +8129,9 @@ snapshots:
       '@crossmint/common-sdk-base': 0.3.2
       '@zerodev/ecdsa-validator': 5.3.1(@zerodev/sdk@5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@zerodev/passkey-validator': 5.4.0(@zerodev/sdk@5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@zerodev/webauthn-key@5.3.1(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@zerodev/sdk': 5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@zerodev/webauthn-key': 5.3.1(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      permissionless: 0.1.36(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@zerodev/sdk': 5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@zerodev/webauthn-key': 5.3.1(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      permissionless: 0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       viem: 2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
       zod: 3.22.4
     transitivePeerDependencies:
@@ -8446,12 +8403,6 @@ snapshots:
     transitivePeerDependencies:
       - viem
 
-  '@dynamic-labs/rpc-providers@2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
-    dependencies:
-      '@dynamic-labs/types': 2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-    transitivePeerDependencies:
-      - viem
-
   '@dynamic-labs/rpc-providers@4.6.3':
     dependencies:
       '@dynamic-labs/assert-package-version': 4.6.3
@@ -8529,8 +8480,8 @@ snapshots:
 
   '@dynamic-labs/solana-utils@2.6.3(@dynamic-labs/types@2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/utils@2.6.3(eventemitter3@5.0.1)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@dynamic-labs/types': 2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/types': 2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@solana/web3.js': 1.92.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
@@ -8540,12 +8491,12 @@ snapshots:
   '@dynamic-labs/solana@2.6.3(@dynamic-labs/logger@2.6.3(eventemitter3@5.0.1))(bufferutil@4.0.9)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(utf-8-validate@5.0.10)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
     dependencies:
       '@dynamic-labs/rpc-provider-solana': 2.6.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/rpc-providers': 2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/rpc-providers': 2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@dynamic-labs/sdk-api-core': 0.0.510
       '@dynamic-labs/turnkey': 2.6.3(@dynamic-labs/logger@2.6.3(eventemitter3@5.0.1))(bufferutil@4.0.9)(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(utf-8-validate@5.0.10)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/types': 2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/wallet-book': 2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/types': 2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/wallet-book': 2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@dynamic-labs/wallet-connector-core': 2.6.3(@dynamic-labs/logger@2.6.3(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/types@2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/utils@2.6.3(eventemitter3@5.0.1)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/wallet-book@2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(eventemitter3@5.0.1)
       '@solana/web3.js': 1.92.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@wallet-standard/app': 1.0.1
@@ -8608,11 +8559,6 @@ snapshots:
       '@dynamic-labs/sdk-api-core': 0.0.510
       viem: 2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
 
-  '@dynamic-labs/types@2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
-    dependencies:
-      '@dynamic-labs/sdk-api-core': 0.0.510
-      viem: 2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
-
   '@dynamic-labs/types@4.6.3':
     dependencies:
       '@dynamic-labs/assert-package-version': 4.6.3
@@ -8630,18 +8576,6 @@ snapshots:
     transitivePeerDependencies:
       - eventemitter3
 
-  '@dynamic-labs/utils@2.6.3(eventemitter3@5.0.1)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
-    dependencies:
-      '@dynamic-labs/logger': 2.6.3(eventemitter3@5.0.1)
-      '@dynamic-labs/sdk-api-core': 0.0.510
-      '@dynamic-labs/types': 2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      buffer: 6.0.3
-      stream: 0.0.2
-      tldts: 6.0.16
-      viem: 2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
-    transitivePeerDependencies:
-      - eventemitter3
-
   '@dynamic-labs/utils@4.6.3':
     dependencies:
       '@dynamic-labs/assert-package-version': 4.6.3
@@ -8655,9 +8589,9 @@ snapshots:
   '@dynamic-labs/viem-utils@2.6.3(fvniyonr4gbn4bitxdwfar2jye)':
     dependencies:
       '@dynamic-labs/logger': 2.6.3(eventemitter3@5.0.1)
-      '@dynamic-labs/types': 2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/wallet-book': 2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/types': 2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/wallet-book': 2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@dynamic-labs/wallet-connector-core': 2.6.3(@dynamic-labs/logger@2.6.3(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/types@2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/utils@2.6.3(eventemitter3@5.0.1)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/wallet-book@2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(eventemitter3@5.0.1)
       viem: 2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
 
@@ -8689,19 +8623,6 @@ snapshots:
       - eventemitter3
       - viem
 
-  '@dynamic-labs/wallet-book@2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
-    dependencies:
-      '@dynamic-labs/iconic': 2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@dynamic-labs/logger': 2.6.3(eventemitter3@5.0.1)
-      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
-      util: 0.12.5
-      zod: 3.22.4
-    transitivePeerDependencies:
-      - eventemitter3
-      - viem
-
   '@dynamic-labs/wallet-book@4.6.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@dynamic-labs/assert-package-version': 4.6.3
@@ -8717,11 +8638,11 @@ snapshots:
   '@dynamic-labs/wallet-connector-core@2.6.3(@dynamic-labs/logger@2.6.3(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/types@2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/utils@2.6.3(eventemitter3@5.0.1)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/wallet-book@2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(eventemitter3@5.0.1)':
     dependencies:
       '@dynamic-labs/logger': 2.6.3(eventemitter3@5.0.1)
-      '@dynamic-labs/rpc-providers': 2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/rpc-providers': 2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@dynamic-labs/sdk-api-core': 0.0.510
-      '@dynamic-labs/types': 2.6.3(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@dynamic-labs/wallet-book': 2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/types': 2.6.3(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/utils': 2.6.3(eventemitter3@5.0.1)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@dynamic-labs/wallet-book': 2.6.3(eventemitter3@5.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       eventemitter3: 5.0.1
 
   '@dynamic-labs/wallet-connector-core@4.6.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
@@ -11498,30 +11419,30 @@ snapshots:
 
   '@zerodev/ecdsa-validator@5.3.1(@zerodev/sdk@5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
     dependencies:
-      '@zerodev/sdk': 5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      permissionless: 0.1.36(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@zerodev/sdk': 5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      permissionless: 0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       viem: 2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
 
   '@zerodev/passkey-validator@5.4.0(@zerodev/sdk@5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(@zerodev/webauthn-key@5.3.1(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
     dependencies:
       '@noble/curves': 1.8.1
       '@simplewebauthn/browser': 8.3.7
-      '@zerodev/sdk': 5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      '@zerodev/webauthn-key': 5.3.1(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
-      permissionless: 0.1.36(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@zerodev/sdk': 5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      '@zerodev/webauthn-key': 5.3.1(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      permissionless: 0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       viem: 2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
 
-  '@zerodev/sdk@5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
+  '@zerodev/sdk@5.3.3(permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)))(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
     dependencies:
-      permissionless: 0.1.36(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
+      permissionless: 0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))
       semver: 7.7.1
-      viem: 2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
+      viem: 2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
 
-  '@zerodev/webauthn-key@5.3.1(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
+  '@zerodev/webauthn-key@5.3.1(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4))':
     dependencies:
       '@noble/curves': 1.8.1
       '@simplewebauthn/browser': 8.3.7
-      viem: 2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
+      viem: 2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
 
   JSONStream@1.3.5:
     dependencies:
@@ -14551,9 +14472,9 @@ snapshots:
 
   path-type@4.0.0: {}
 
-  permissionless@0.1.36(viem@2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)):
+  permissionless@0.1.36(viem@2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)):
     dependencies:
-      viem: 2.23.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
+      viem: 2.17.5(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.22.4)
 
   picocolors@1.0.1: {}
 
